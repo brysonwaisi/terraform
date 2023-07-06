@@ -8,7 +8,7 @@ consul agent -bootstrap -config-file="config/consul-config.hcl" -bind="127.0.0.1
 # Let's set the Consul token to Mary Moe
 # Replace SECRETID_VALUE with Mary Moe's secret ID
 # Linux and MacOS
-export CONSUL_HTTP_TOKEN=SECRETID_VALUE
+export CONSUL_HTTP_TOKEN=fb3a69b8-6d85-e785-881b-36533e560bef
 
 # Windows
 $env:CONSUL_HTTP_TOKEN="SECRETID_VALUE"
@@ -28,7 +28,7 @@ terraform apply "dev.tfplan"
 ## You can go into the ACL section of the Consul UI and grab it
 
 # Linux and MacOS
-export CONSUL_HTTP_TOKEN=SECRETID_VALUE
+export CONSUL_HTTP_TOKEN=99a6f722-7712-58ca-c595-cdfa6b87e09b
 
 # Windows
 $env:CONSUL_HTTP_TOKEN="SECRETID_VALUE"
